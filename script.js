@@ -25,8 +25,8 @@ function setTheme(mode) {
     document.getElementById("theme-style").href = "blue.css";
   }
 
-  if (mode == "green") {
-    document.getElementById("theme-style").href = "green.css";
+  if (mode == "black") {
+    document.getElementById("theme-style").href = "black.css";
   }
 
   if (mode == "purple") {
