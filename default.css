@@ -347,7 +347,7 @@ h6 {
   color: #4b5156;
   font-size: 14px;
 }
-.contact {
+#contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
