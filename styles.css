@@ -846,13 +846,6 @@ body {
   }
 }
 
-/* Dark mode preference */
-@media (prefers-color-scheme: dark) {
-  :root {
-    /* Dark theme colors are already default */
-  }
-}
-
 /* Print styles */
 @media print {
   .navbar,
