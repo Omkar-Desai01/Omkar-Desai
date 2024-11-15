@@ -120,6 +120,7 @@ body {
 .btn-outline {
   border: 2px solid var(--primary);
   color: var(--primary);
+  background: transparent;
 }
 
 .btn-outline:hover {
@@ -947,10 +948,27 @@ body {
 }
 
 .company {
-  display: block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   font-weight: 500;
   color: var(--primary);
   margin-bottom: 0.25rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.company i {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+.company:hover {
+  color: var(--primary-dark);
+}
+
+.company:hover i {
+  transform: translate(2px, -2px);
 }
 
 .duration {
